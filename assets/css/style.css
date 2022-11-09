@@ -72,7 +72,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 10em;
+    gap: 1rem;
 }
 
 h1 {
@@ -102,7 +102,7 @@ h1 {
 }
 
 .main img {
-    border: 7px solid aqua;
+    
     width: 350px;
     height: 500px;
     min-height: 300px;
@@ -668,7 +668,23 @@ h1 {
 
     }
 
-    @media screen and (max-width: 386px) {
+    @media screen and (max-width: 375px) {
+        
+        .main img {
+           
+            width: 160px;
+            height: 20px;
+           
+            
+           
+        
+        
+        }
+        
+        
+        
+        
+        
         .contact-section img {
             display: none;
         }
