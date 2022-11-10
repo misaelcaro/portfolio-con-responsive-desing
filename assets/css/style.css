@@ -387,8 +387,19 @@ h1 {
     font-size: 1.5rem;
 }
 
+
+.icon__proyect_link{
+    height: 10px;
+    
+}
+
+
+
+
+
 .icon__proyect_link:hover{
     color: aqua;
+    height: 11px;
       
    }
 
