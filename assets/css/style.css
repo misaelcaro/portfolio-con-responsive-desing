@@ -102,15 +102,15 @@ h1 {
 }
 
 .main img {
-    
+
     width: 380px;
     height: 500px;
     min-height: 300px;
     border-style: dotted;
     border-radius: 70px;
-    border-color:#191C32 ;
-   
-    
+    border-color: #191C32;
+
+
 
 }
 
@@ -387,6 +387,11 @@ h1 {
     font-size: 1.5rem;
 }
 
+.icon__proyect_link:hover{
+    color: aqua;
+      
+   }
+
 .button-content {
     display: flex;
     justify-content: center;
@@ -449,7 +454,11 @@ h1 {
 }
 
 
+.img_logo:hover {
+    background-color: #191C32;
+    border-radius: 10%;
 
+}
 
 
 
@@ -672,22 +681,22 @@ h1 {
     }
 
     @media screen and (max-width: 375px) {
-        
+
         .main img {
-           
+
             width: 160px;
             height: 20px;
-           
-            
-           
-        
-        
+
+
+
+
+
         }
-        
-        
-        
-        
-        
+
+
+
+
+
         .contact-section img {
             display: none;
         }
