@@ -103,11 +103,14 @@ h1 {
 
 .main img {
     
-    width: 350px;
+    width: 380px;
     height: 500px;
     min-height: 300px;
-    border-radius: 4%;
-
+    border-style: dotted;
+    border-radius: 70px;
+    border-color:#191C32 ;
+   
+    
 
 }
 
